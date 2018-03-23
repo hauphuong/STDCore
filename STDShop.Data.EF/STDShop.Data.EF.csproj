@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Configuration\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\STDShop.Data\STDShop.Data.csproj" />
+    <ProjectReference Include="..\STDShop.Infrastruture\STDShop.Infrastruture.csproj" />
+    <ProjectReference Include="..\STDShop.Ultilities\STDShop.Ultilities.csproj" />
+  </ItemGroup>
+
+</Project>
